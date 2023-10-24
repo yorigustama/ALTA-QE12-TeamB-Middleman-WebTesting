@@ -23,7 +23,7 @@ public class Hooks {
         driver = new ChromeDriver(co);
 
         //membuka saucedome
-        String appUrl = "https://middleman-immersive.vercel.app/";
+        String appUrl = "https://middleman-immersive.vercel.app/auth/login";
         driver.get(appUrl); //open link
         driver.manage().window().maximize(); //max browser
     }
