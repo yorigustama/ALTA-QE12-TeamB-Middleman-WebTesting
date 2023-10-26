@@ -13,7 +13,7 @@ public class Hooks {
     public static WebDriver driver;
 
     @Before
-    public void openBrowser(){
+    public void openBrowser() throws InterruptedException {
         //WebDriverManager.chromedriver().clearDriverCache().setup();
         //buka chrome
         WebDriverManager.chromedriver().setup();
@@ -23,8 +23,10 @@ public class Hooks {
         driver = new ChromeDriver(co);
 
         //membuka saucedome
-        String appUrl = "https://middleman-immersive.vercel.app/auth/login";
+        String appUrl = "https://middleman-immersive.vercel.app/auth/welcome";
+
         driver.get(appUrl); //open link
+
         driver.manage().window().maximize(); //max browser
     }
     @After
