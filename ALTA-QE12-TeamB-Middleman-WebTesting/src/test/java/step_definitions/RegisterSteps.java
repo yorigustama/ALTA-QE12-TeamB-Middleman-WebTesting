@@ -26,6 +26,7 @@ public class RegisterSteps {
         registerPage.setButtonToSingUp();
         Thread.sleep(1000);
 
+
     }
 
 

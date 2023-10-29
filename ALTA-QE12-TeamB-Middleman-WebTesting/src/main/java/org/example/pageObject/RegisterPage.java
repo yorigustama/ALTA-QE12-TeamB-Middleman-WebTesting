@@ -30,6 +30,7 @@ public class RegisterPage {
     private WebElement logoMiddleman;
 
 
+
     public boolean logoMiddlemanDisplayed(){
         return logoMiddleman.isDisplayed();
     }
