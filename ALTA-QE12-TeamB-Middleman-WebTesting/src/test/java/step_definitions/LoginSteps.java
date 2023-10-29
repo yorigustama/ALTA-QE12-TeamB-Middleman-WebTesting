@@ -47,9 +47,9 @@ public class LoginSteps {
         // Switch to the alert
         Alert alert = driver.switchTo().alert();
 
-        // Get the text from the alert
-        String alertText = alert.getText();
-        System.out.println("Alert Text: " + alertText);
+//        // Get the text from the alert
+//        String alertText = alert.getText();
+//        System.out.println("Alert Text: " + alertText);
 
         // Handle the alert (click "OK")
         alert.accept();
@@ -75,5 +75,45 @@ public class LoginSteps {
         loginPage.setButtonDeleteMyProd();
         Thread.sleep(2000);
 
+    }
+
+    @Given("Admin open the website Middleman login")
+    public void adminOpenTheWebsiteMiddlemanLogin() throws InterruptedException {
+        Thread.sleep(2000);
+        Assert.assertTrue(loginPage.logoMiddlemanDisplayed());
+        loginPage.setButtonToLogin();
+        Thread.sleep(2000);
+
+
+    }
+
+    @When("Admin input {string} as a userName {string} as a password")
+    public void adminInputAsAUserNameAsAPassword(String usrName1, String psword1) throws InterruptedException {
+        loginPage.setInputUserName(usrName1);
+        loginPage.setInputPassword(psword1);
+        loginPage.setButtonLogin();
+        Thread.sleep(3000);
+    }
+
+    @And("Admin should see an success message login")
+    public void adminShouldSeeAnSuccessMessageLogin() throws InterruptedException {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.alertIsPresent());
+
+        // Switch to the alert
+        Alert alert = driver.switchTo().alert();
+
+//        // Get the text from the alert
+//        String alertText = alert.getText();
+//        System.out.println("Alert Text: " + alertText);
+
+        // Handle the alert (click "OK")
+        alert.accept();
+    }
+
+    @Then("Admin already on home page")
+    public void adminAlreadyOnHomePage() throws InterruptedException {
+        Thread.sleep(3000);
+        Assert.assertTrue(loginPage.setdasboardUser());
     }
 }

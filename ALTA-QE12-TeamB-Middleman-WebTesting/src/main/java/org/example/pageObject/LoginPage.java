@@ -31,8 +31,11 @@ public class LoginPage {
     @FindBy(xpath = "//img[@alt='store']")
     private WebElement logoMiddleman;
 
-    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/label[1] ")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/label[1]")
     private WebElement buttonDeleteMyProd;
+
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[3]/h1[1]")
+    private WebElement dashboardUser;
 
 
     public boolean logoMiddlemanDisplayed(){
@@ -56,6 +59,9 @@ public class LoginPage {
     }
     public void setButtonDeleteMyProd(){
         buttonDeleteMyProd.click();
+    }
+    public boolean setdasboardUser(){
+        return dashboardUser.isDisplayed();
     }
 
 
