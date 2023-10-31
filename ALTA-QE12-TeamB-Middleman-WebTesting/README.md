@@ -9,13 +9,13 @@ Tools & Technology Stack : Trello, Intelj, Spreadsheet
 How To Run Project :
 
 1. Prasyarat:
--Git
--JDK (Versi yang direkomendasikan: JDK 11)
--Maven
+* Git
+* JDK (Versi yang direkomendasikan: JDK 11)
+* Maven
 2. Mengklon Repositori:
--Buka terminal atau command prompt.
--Pilih direktori di mana Anda ingin menyimpan proyek.
--git clone [URL_REPOSITORI_GITHUB] cd [nama_direktori_repositori]
+* Buka terminal atau command prompt.
+* Pilih direktori di mana Anda ingin menyimpan proyek.
+* git clone [URL_REPOSITORI_GITHUB] cd [nama_direktori_repositori]
 3. Menjalankan Tes: mvn clean test
 4. Melihat Hasil Tes: Silakan buka sebuah issue atau hubungi maintainer repositori.
 
