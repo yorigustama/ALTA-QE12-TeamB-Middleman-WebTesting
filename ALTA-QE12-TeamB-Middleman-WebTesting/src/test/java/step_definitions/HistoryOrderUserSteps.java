@@ -1,8 +1,7 @@
 package step_definitions;
 
-
+import PageObjects.HistoryOrderUserPage;
 import io.cucumber.java.en.Then;
-import org.example.pageObject.HistoryOrderUserPage;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
