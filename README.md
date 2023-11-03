@@ -1,6 +1,6 @@
 # ALTA-QE12-TeamB-Middleman-WEBTesting #
 
-Link Test Case Manual : (https://docs.google.com/spreadsheets/d/1cpNXLFxVTSTK8CHRYQ4Lqe9HrjXcOFSEtLOziQfAY9Y/edit#gid=0)
+Link Test Case Manual : (https://docs.google.com/spreadsheets/d/1P_R4kEfmznbiFnhEd86RJukAV3jaLR3u8m2Xx0monaE/edit#gid=1775498655)
 
 Gambar Report dan Coverag Test Overall
 ![Screenshot 2023-10-31 233609](https://github.com/yorigustama/ALTA-QE12-TeamB-Middleman-APITesting/assets/50369208/3087ccd7-1052-4462-8302-69464b9e85b0)
