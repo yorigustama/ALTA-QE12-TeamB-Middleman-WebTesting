@@ -1,8 +1,8 @@
 package step_definitions;
 
+import PageObjects.MyProductPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import org.example.pageObject.MyProductPage;
 import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
@@ -27,14 +27,14 @@ public class MyProductSteps {
     }
 
     @Then("User input {string} in search product")
-    public void inputSearchPro(String Insearch) throws InterruptedException {
+    public void inputSearchProduc(String Insearch) throws InterruptedException {
         myProductPage.setInputSearch(Insearch);
         Thread.sleep(5000);
     }
 
     @Then("User click button search")
-    public void ClickButtonmySearch() throws InterruptedException{
-        myProductPage.ClickButtonSearchPro();
+    public void ClickButtonSearch() throws InterruptedException{
+        myProductPage.ClickButtonSearchProdu();
         Thread.sleep(2000);
     }
 

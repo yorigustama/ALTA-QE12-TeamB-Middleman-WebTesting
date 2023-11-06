@@ -1,4 +1,4 @@
-package org.example.pageObject;
+package PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -47,7 +47,7 @@ public class MyProductPage {
         labelInputSearch.sendKeys(InSearch);
     }
 
-    public void ClickButtonSearchPro(){
+    public void ClickButtonSearchProdu(){
         clickButtonSearch.click();
     }
 
