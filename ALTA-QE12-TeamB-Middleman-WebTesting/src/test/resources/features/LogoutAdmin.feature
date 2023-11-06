@@ -1,4 +1,4 @@
-@Logout
+@Project
 Feature: User Logout my Website
   As a Admin I want to logout website
 

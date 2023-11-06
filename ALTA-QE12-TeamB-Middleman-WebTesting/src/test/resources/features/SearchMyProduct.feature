@@ -1,4 +1,4 @@
-@SearchMyProduct
+@Project
 Feature: Search Product
   As a user i want search product
 

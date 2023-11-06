@@ -1,4 +1,4 @@
-@Tugas
+@Project
 Feature: User Login
 
   @LogOut_Successful

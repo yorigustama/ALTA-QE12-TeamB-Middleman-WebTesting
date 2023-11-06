@@ -1,4 +1,4 @@
-@Tugas
+@Project
 Feature: User Register
 
   @Register_Successful

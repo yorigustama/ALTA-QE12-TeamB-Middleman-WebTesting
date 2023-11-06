@@ -1,4 +1,4 @@
-@Middleman
+@Project
 Feature: History Order my Product
   As a Admin I want to know the order history
 

@@ -1,4 +1,4 @@
-@OutBoundUser
+@Project
 Feature: User Checkout Product
 
   Scenario: Success Checkout Product

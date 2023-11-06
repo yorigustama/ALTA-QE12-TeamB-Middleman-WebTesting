@@ -1,4 +1,4 @@
-@@Middleman
+@Project
 Feature: Search History Order User
   As a User i want know history my order
 

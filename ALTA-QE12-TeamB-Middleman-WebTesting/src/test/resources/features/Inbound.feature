@@ -1,4 +1,4 @@
-@Inbound
+@Project
 Feature: Inbound my Product
   As a admin i want Inbound product
 

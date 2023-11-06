@@ -1,4 +1,4 @@
-@Middleman
+@Project
 Feature: Product User
 
   Scenario: Success add product

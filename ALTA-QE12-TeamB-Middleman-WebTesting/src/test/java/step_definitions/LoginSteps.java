@@ -69,13 +69,13 @@ public class LoginSteps {
         alert.accept();
     }
 
-    @And("User delete button")
-    public void userDeleteButton() throws InterruptedException {
-        Thread.sleep(2000);
-        loginPage.setButtonDeleteMyProd();
-        Thread.sleep(2000);
-
-    }
+//    @And("User delete button")
+//    public void userDeleteButton() throws InterruptedException {
+//        Thread.sleep(2000);
+//        loginPage.setButtonDeleteMyProd();
+//        Thread.sleep(2000);
+//
+//    }
 
     @Given("Admin open the website Middleman login")
     public void adminOpenTheWebsiteMiddlemanLogin() throws InterruptedException {
