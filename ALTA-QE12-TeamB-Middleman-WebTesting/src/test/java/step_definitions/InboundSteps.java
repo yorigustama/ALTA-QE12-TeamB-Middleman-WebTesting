@@ -1,8 +1,8 @@
 package step_definitions;
 
+import PageObjects.Inbound;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import org.example.pageObject.Inbound;
 import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
@@ -93,4 +93,6 @@ public class InboundSteps {
         Thread.sleep(2000);
 
     }
+
+
 }

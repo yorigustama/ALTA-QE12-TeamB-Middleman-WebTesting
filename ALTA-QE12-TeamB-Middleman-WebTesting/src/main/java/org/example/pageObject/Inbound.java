@@ -1,4 +1,4 @@
-package org.example.pageObject;
+package PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -40,7 +40,7 @@ public class Inbound {
     @FindBy(xpath = "//button[@id='decrement']")
     private WebElement clickkurangqty;
 
-    @FindBy(xpath = "//div[@class='grid gap-2 m-2 grid-flow-row auto-rows-max grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center']/div[2]//button[@id='btn-delete']")
+    @FindBy(xpath = "//button[@id='btn-delete']")
     private WebElement clickdelete;
 
 
